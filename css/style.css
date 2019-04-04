@@ -20,6 +20,11 @@ html, body
     height: 80%;
 }
 
+.row75
+{
+    height: 75%;
+}
+
 .row70
 {
     height: 70%;
@@ -33,6 +38,11 @@ html, body
 .row30
 {
     height: 30%;
+}
+
+.row25
+{
+    height: 25%;
 }
 
 .row20
@@ -106,6 +116,11 @@ html, body
     color: white;
 }
 
+.centrerImageCell
+{
+
+}
+
 @font-face {
     font-family: StarWarsFont;
     src: url("../fonts/SF Distant Galaxy.ttf");
@@ -140,6 +155,16 @@ html, body
     .bgBanniere
     {
         background-image: url("../img/CloneWarsCell.jpg");
+    }
+
+    h1
+    {
+        font-size: 32px;
+    }
+
+    .centrerImageCell
+    {
+        text-align: center;
     }
 }
 
