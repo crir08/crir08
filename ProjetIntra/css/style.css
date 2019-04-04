@@ -1,0 +1,277 @@
+html, body
+{
+    margin: 0;
+    height: 100%;
+}
+
+.zero
+{
+    margin: 0;
+    padding: 0;
+}
+
+.row100
+{
+    height: 100%;
+}
+
+.row80
+{
+    height: 80%;
+}
+
+.row70
+{
+    height: 70%;
+}
+
+.row50
+{
+    height: 50%;
+}
+
+.row30
+{
+    height: 30%;
+}
+
+.row20
+{
+    height: 20%;
+}
+
+.paddingTop
+{
+    padding-top: 32px;
+}
+
+.paddingBottom
+{
+    padding-bottom: 32px;
+}
+
+.paddingBouton
+{
+    padding-top: 15px;
+}
+
+.h1Bannieres
+{
+    font-size: 72px;
+}
+
+.bgBanniere
+{
+    background-image: url("../img/Clones.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bgInformations
+{
+    background-color: dodgerblue;
+}
+
+.bgJaune
+{
+    background-color: #ffd601;
+}
+
+.bgNoir
+{
+    background-color: black;
+    height: 100%;
+}
+
+.borderJaune
+{
+    border-right-color: #ffd601;
+    border-right-width: 10px;
+}
+
+.policeStarWars
+{
+    font-family: StarWarsFont;
+
+}
+
+.texteJaune
+{
+    color: #ffd601;
+}
+
+.texteBlanc
+{
+    color: white;
+}
+
+@font-face {
+    font-family: StarWarsFont;
+    src: url("../fonts/SF Distant Galaxy.ttf");
+}
+/* Parallaxes */
+.parallax
+{
+    background-image: url("../img/Republic_Assault.png");
+
+    height: 100%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2
+{
+    background-image: url("../img/Kamino.jpg");
+
+    height: 100%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 480px) {
+    .bgBanniere
+    {
+        background-image: url("../img/CloneWarsCell.jpg");
+    }
+}
+
+/* Navbar */
+.navbar {
+    background-color: #000000;
+}
+.navbar .navbar-brand {
+    color: #ffd601;
+}
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+    color: #ffffff;
+}
+.navbar .navbar-text {
+    color: #ffd601;
+}
+.navbar .navbar-text a {
+    color: #ffffff;
+}
+.navbar .navbar-text a:hover,
+.navbar .navbar-text a:focus {
+    color: #ffffff;
+}
+.navbar .navbar-nav .nav-link {
+    color: #ffd601;
+    border-radius: .25rem;
+    margin: 0 0.25em;
+}
+.navbar .navbar-nav .nav-link:not(.disabled):hover,
+.navbar .navbar-nav .nav-link:not(.disabled):focus {
+    color: #ffffff;
+}
+.navbar .navbar-nav .nav-item.active .nav-link,
+.navbar .navbar-nav .nav-item.active .nav-link:hover,
+.navbar .navbar-nav .nav-item.active .nav-link:focus,
+.navbar .navbar-nav .nav-item.show .nav-link,
+.navbar .navbar-nav .nav-item.show .nav-link:hover,
+.navbar .navbar-nav .nav-item.show .nav-link:focus {
+    color: #ffffff;
+    background-color: #ffd601;
+}
+.navbar .navbar-toggle {
+    border-color: #ffd601;
+}
+.navbar .navbar-toggle:hover,
+.navbar .navbar-toggle:focus {
+    background-color: #ffd601;
+}
+.navbar .navbar-toggle .navbar-toggler-icon {
+    color: #ffd601;
+}
+.navbar .navbar-collapse,
+.navbar .navbar-form {
+    border-color: #ffd601;
+}
+.navbar .navbar-link {
+    color: #ffd601;
+}
+.navbar .navbar-link:hover {
+    color: #ffffff;
+}
+
+@media (max-width: 575px) {
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #ffd601;
+    }
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #ffffff;
+    }
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #ffffff;
+        background-color: #ffd601;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #ffd601;
+    }
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #ffffff;
+    }
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #ffffff;
+        background-color: #ffd601;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #ffd601;
+    }
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #ffffff;
+    }
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #ffffff;
+        background-color: #ffd601;
+    }
+}
+
+@media (max-width: 1199px) {
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #ffd601;
+    }
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #ffffff;
+    }
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #ffffff;
+        background-color: #ffd601;
+    }
+}
+
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #ffd601;
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #ffffff;
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #ffffff;
+    background-color: #ffd601;
+}
+
+.couleurToggler
+{
+    color: #ffd601;
+}
